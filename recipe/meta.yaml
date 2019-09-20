@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://github.com/cloudtools/{{ name }}/archive/{{ version }}.tar.gz"
-  sha256: "9baaf8db8c4e384ac57e3d674130696b6ed2a54a70f8462a827d43da875d0ea8"
+  sha256: "52681404f2731e93473a436b43375a30562f17a3bfc0064f986c2fb2aa73102a"
 
 build:
   #TODO: Make noarch when python2 is dropped
