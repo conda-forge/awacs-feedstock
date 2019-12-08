@@ -1,5 +1,5 @@
 {% set name = "awacs" %}
-{% set version = "0.9.6" %}
+{% set version = "0.9.7" %}
 
 package:
   name: "{{ name|lower }}"
