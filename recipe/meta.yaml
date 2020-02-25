@@ -1,18 +1,18 @@
 {% set name = "awacs" %}
-{% set version = "0.9.6" %}
+{% set version = "0.9.8" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://github.com/cloudtools/{{ name }}/archive/{{ version }}.tar.gz"
-  sha256: "e97b657753b59f3f4a0b6face18eba832152cd2c98faf0f29e91b5c54701f45f"
+  url: https://github.com/cloudtools/{{ name }}/archive/{{ version }}.tar.gz
+  sha256: 3ab12a06010b319e3493f7569ed7adbffdcf579056ec1c657b760adedaca1c5f
 
 build:
   #TODO: Make noarch when python2 is dropped
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
 requirements:
   host:
@@ -28,12 +28,12 @@ test:
     - tests
 
 about:
-  home: "https://github.com/cloudtools/awacs"
-  license: "BSD-2-Clause"
-  license_family: "BSD"
-  license_file: "LICENSE"
-  summary: "AWS Access Policy Language creation library"
-  dev_url: "https://github.com/cloudtools/awacs"
+  home: https://github.com/cloudtools/awacs
+  license: BSD-2-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: AWS Access Policy Language creation library
+  dev_url: https://github.com/cloudtools/awacs
 
 extra:
   recipe-maintainers:
