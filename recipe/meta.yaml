@@ -1,5 +1,5 @@
 {% set name = "awacs" %}
-{% set version = "0.9.7" %}
+{% set version = "0.9.8" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://github.com/cloudtools/{{ name }}/archive/{{ version }}.tar.gz"
-  sha256: "22885e896eb6794b1554383aa3f92dfbd90e53b7c95ab6521268e2686b83767e"
+  sha256: "3ab12a06010b319e3493f7569ed7adbffdcf579056ec1c657b760adedaca1c5f"
 
 build:
   #TODO: Make noarch when python2 is dropped
