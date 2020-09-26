@@ -5,7 +5,7 @@ Home: https://github.com/cloudtools/awacs
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: AWS Access Policy Language creation library
 
