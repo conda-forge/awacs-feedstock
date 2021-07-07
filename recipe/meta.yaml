@@ -1,5 +1,5 @@
 {% set name = "awacs" %}
-{% set version = "2.0.0 %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -10,6 +10,7 @@ source:
   sha256: b79a379b7cce03822d6f7d76c735e7d767334a521945b5bfdc978d1c9a2537e3
 
 build:
+  noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
 
@@ -30,7 +31,7 @@ about:
   license: BSD-2-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: "AWS Access Policy Language creation library"
+  summary: AWS Access Policy Language creation library
   dev_url: https://github.com/cloudtools/awacs
 
 extra:
