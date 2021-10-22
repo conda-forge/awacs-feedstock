@@ -1,5 +1,5 @@
 {% set name = "awacs" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cloudtools/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: b79a379b7cce03822d6f7d76c735e7d767334a521945b5bfdc978d1c9a2537e3
+  sha256: 1772df0a8f5d126bbe88c50da1d7cdb5e76b301289f811da80a7703964236d59
 
 build:
   noarch: python
