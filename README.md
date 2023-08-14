@@ -1,11 +1,11 @@
-About awacs
-===========
+About awacs-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/awacs-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/cloudtools/awacs
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/awacs-feedstock/blob/main/LICENSE.txt)
 
 Summary: AWS Access Policy Language creation library
 
